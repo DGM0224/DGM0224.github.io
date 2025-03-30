@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <title>DGM Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/main.bundle.css">
+  <script src="https://kit.fontawesome.com/4e5a72c756.js"></script>
+</head>
+
+<body>
+<nav class="navbar is-primary" role="navigation" aria-label="main navigation" style="background-color: #F15F5F">
+  <div class="navbar-brand">
+    <div class="navbar-item is-hidden-desktop">
+      <a href="https://github.com/DGM0224" class="icon is-large has-text-light">
+        <i class="fab fa-2x fa-github"></i>
+      </a>
+    </div>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <a href="https://github.com/DGM0224" class="icon is-large has-text-light">
+          <i class="fab fa-2x fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section class="hero is-primary" style="background-color: #F15F5F">
+  <div class="hero-body">
+    <div class="container">
+      <div class="level">
+        <div class="level-item has-text-centered">
+          <figure class="image is-128x128">
+            <img class="is-rounded" src="img/me.png">
+          </figure>
+        </div>
+      </div>
+      <div class="columns has-text-centered">
+        <div class="column">
+          <h1 class="title is-1">
+            도건민<br> Do Geon Min
+          </h1>
+          <h2 class="subtitle">
+            FullStack, DevOps, Data Analysis
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h1 class="title">About Me</h1>
+    <hr />
+    <p>자기소개</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h1 class="title">Projects</h1>
+    <hr />
+    <div class="tile is-ancestor">
+      <div class="tile is-vertical is-12">
+        <div class="tile">
+          <div class="tile is-parent">
+            <article class="tile is-child notification">
+              <p class="title">OneStack</p>
+              <figure class="image is-3by2">
+                <img class="modal-trigger" data-target="project-1-modal" src="img/project-1-cover.png">
+              </figure>
+            </article>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child notification">
+              <p class="title">요기용</p>
+              <figure class="image is-4by3">
+                <img class="modal-trigger" data-target="project-2-modal" src="img/project-2-cover.png">
+              </figure>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Modals -->
+<div id="project-1-modal" class="modal">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <header class="modal-card-head">
+      <p class="modal-card-title">OneStack</p>
+      <button class="delete" aria-label="close"></button>
+    </header>
+    <section class="modal-card-body">
+
+      <div id="project-1-modal-carousel" class="carousel">
+        <figure class="image is-4by3 carousel-cell">
+          <img src="img/carousel/1.png">
+        </figure>
+        <figure class="image is-4by3 carousel-cell">
+          <img src="img/carousel/2.png">
+        </figure>
+        <figure class="image is-4by3 carousel-cell">
+          <img src="img/carousel/3.png">
+        </figure>
+      </div>
+
+      <div class="content">
+
+        <p>OneStack은 IT 전문가와 의뢰인을 연결하는 매칭 플랫폼입니다. <br> 검증된 전문가 풀을 통해 신뢰성 있는 외주 서비스를 제공하며, 실시간 채팅과 프로젝트 관리 기능으로 효율적인 협업을 지원합니다.</p>
+
+        <div class="tags">
+          <span class="tag">java</span>
+          <span class="tag">javascript</span>
+          <span class="tag">typscript</span>
+          <span class="tag">node</span>
+        </div>
+
+      </div>
+
+    </section>
+    <footer class="modal-card-foot">
+      <button class="button is-success">Close</button>
+    </footer>
+  </div>
+</div>
+
+<div id="project-2-modal" class="modal">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <header class="modal-card-head">
+      <p class="modal-card-title">요기용</p>
+      <button class="delete" aria-label="close"></button>
+    </header>
+    <section class="modal-card-body">
+
+      <div id="project-2-modal-carousel" class="carousel">
+        <figure class="image is-4by3 carousel-cell">
+          <img src="img/carousel/1.png">
+        </figure>
+        <figure class="image is-4by3 carousel-cell">
+          <img src="img/carousel/2.png">
+        </figure>
+        <figure class="image is-4by3 carousel-cell">
+          <img src="img/carousel/3.png">
+        </figure>
+      </div>
+
+      <div class="content">
+
+        <p>요기용은 여행 정보 공유를 위한 커뮤니티입니다.<br> 회원가입을 통해 인증된 회원만 접근 가능하고 글 작성 및 댓글 작성, 파일 업로드/저장 등 여러 기능을 통해 소통할 수 있는 커뮤니티입니다.</p>
+
+        <div class="tags">
+          <span class="tag">java</span>
+          <span class="tag">javasrcipt</span>
+          <span class="tag">typscript</span>
+          <span class="tag">node</span>
+        </div>
+
+      </div>
+
+    </section>
+    <footer class="modal-card-foot">
+      <button class="button is-success">Close</button>
+    </footer>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+    <h1 class="title">Education / Training</h1>
+    <hr />
+    <div class="card">
+      <div class="card-content">
+        <div class="content">
+          <p class="title is-4">Global IT</p>
+          <p class="subtitle is-6"><time datetime="2016-9">2024 08</time> ~ <time
+                  datetime="2019-9">2025 02</time></p>
+        </div>
+        <div class="content">
+          풀스택/빅데이터 반 수강
+          <ul>
+            <li>풀스택 공부</li>
+            <li>데이터분석 공부</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="card card-gap">
+      <div class="card-content">
+        <div class="content">
+          <p class="title is-4">경기대학교</p>
+          <p class="subtitle is-6"><time datetime="2015-9">2019 03</time> ~ <time
+                  datetime="2015-9">2025 02</time></p>
+        </div>
+        <div class="content">
+          경기대학교 졸업
+          <ul>
+            <li>수학과</li>
+            <li>융합데이터전공</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h1 class="title">Experience</h1>
+    <hr />
+    <div class="card">
+      <div class="card-content">
+        <div class="media">
+          <div class="media-left">
+            <figure class="image is-48x48">
+              <img src="img/LEN-logo.png" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="media-content">
+            <p class="title is-4">목동 LEN</p>
+            <p class="subtitle is-6"><time datetime="2018-1">2022 12</time> ~ <time
+                    datetime="2019-9">2023 12</time> </p>
+          </div>
+        </div>
+        <div class="content">
+          <p>수학과 팀장</p>
+          <ul>
+            <li>예비 중1 ~ 고3반 강의</li>
+            <li>방학 특강 진행</li>
+            <li>모의고사반 진행</li>
+          </ul>
+          <div class="tags">
+            <span class="tag">수학</span>
+            <span class="tag">팀장</span>
+            <span class="tag">중등</span>
+            <span class="tag">고등</span>
+            <span class="tag">입시</span>
+            <span class="tag">모의고사</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h1 class="title">Contact</h1>
+    <hr />
+    <nav class="level" >
+      <div class="level-item has-text-centered">
+        <div>
+          <a href="https://github.com/DGM0224" class="icon is-large" style="color: #F15F5F">
+            <i class="fab fa-2x fa-github"></i>
+          </a>
+          <p class="heading"><a href="https://github.com/DGM0224" style="color: #F15F5F">github.com/DGM0224</a></p>
+        </div>
+      </div>
+      <div class="level-item has-text-centered" >
+        <div>
+          <a href="mailto:dogun0224@naver.com" class="icon is-large" style="color: #F15F5F">
+            <i class="fas fa-2x fa-envelope"></i>
+          </a>
+          <p class="heading"><a href="mailto:dogun0224@naver.com" style="color: #F15F5F">dogun0224@naver.com</a></p>
+        </div>
+      </div>
+    </nav>
+  </div>
+</section>
+
+
+
+
+
+<footer class="footer" >
+  <div class="content has-text-centered">
+    <p >
+      <a href="https://github.com/DGM0224/DGM0224.github.io.git" target="_blank" class="icon has-text-primary">
+        <i class="fab fa-github"></i> <strong>Devfolio</strong></a>
+    </p>
+  </div>
+</footer>
+
+<script src="js/bundle.js"></script>
+</body>
+
+</html>
